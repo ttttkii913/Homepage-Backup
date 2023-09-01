@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>현재 메시지 백업 사이트</title>
+        <style>
+            @import url(nickname.css);
+        </style>
+            <link href="css/nickname.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet"> 
+        <script src="js/nickname.js"></script>  <!--javascript 활용-->
+    </head>
+    <body>
+        <div class="wrap">
+            <header>
+                <div class="chat1">
+                    <div class="box1"></div>
+                    <h2><a href="main.html">&lt;</h2></a>
+                    <h4>닉네임</h4>
+                    <h1><a href="nickname.html">≡</a></h1>
+                    <hr>
+                </div>
+            </header>
+            <section>    
+                <div class="chat2">
+                    <div class="profile"><img src="image/profile.jpg"></div><br>
+                    <input type="text" class="nickname" placeholder="닉네임 입력"><br><br>  <!--웹 폼 활용-->
+                    <button type="button" id="button" onmouseover="over(this)" onmouseout="out(this)">저장</a></button> <!--이벤트 리스너 속성으로 이벤트 활용-->
+                </div>
+            </section>
+        </div>            
+    </body>
+</html>
+
