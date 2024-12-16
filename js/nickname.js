@@ -5,7 +5,7 @@ window.onload = function () { /*프롬프트 출력*/
 
 function save()  {
   alert('저장되었습니다');
-  document.location.href="main.html";
+  document.location.href="index.html";
 }
 
 
